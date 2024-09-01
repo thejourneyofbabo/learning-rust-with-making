@@ -1,3 +1,5 @@
-Makefile linguist-detectable=false
 *.rs linguist-language=Rust
-/target/* linguist-vendored=true
+Makefile linguist-detectable=false
+*.mk linguist-detectable=false
+*.cmake linguist-detectable=false
+*.txt linguist-detectable=false
